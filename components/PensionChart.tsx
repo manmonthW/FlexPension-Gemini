@@ -7,7 +7,7 @@ interface PensionChartProps {
 }
 
 export const PensionChart: React.FC<PensionChartProps> = ({ data }) => {
-  const chartData = data.filter((d, i) => i % 2 === 0 || i === data.length - 1); // Sample to avoid overcrowding
+  const chartData = data.filter((_, i) => i % 2 === 0 || i === data.length - 1); // Sample to avoid overcrowding
 
   return (
     <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 h-[400px]">

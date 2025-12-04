@@ -1,6 +1,6 @@
 import React from 'react';
 import { SimulationParams } from '../types';
-import { HelpCircle, DollarSign, TrendingUp, Calendar, MapPin } from 'lucide-react';
+import { DollarSign, TrendingUp, MapPin } from 'lucide-react';
 
 interface InputSectionProps {
   params: SimulationParams;
