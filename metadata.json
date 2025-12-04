@@ -1,0 +1,5 @@
+{
+  "name": "FlexiPension AI - 灵活就业养老计算器",
+  "description": "专为灵活就业人员设计的智能养老金计算器。结合复杂的社保算法与Google Gemini AI分析，帮助您在不同缴费档次（60%-300%）之间做出最优决策，规划未来退休生活。",
+  "requestFramePermissions": []
+}
